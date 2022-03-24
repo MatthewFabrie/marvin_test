@@ -15,4 +15,8 @@ clean:
 	rm -Rf __pycache__
 	rm -Rf $(NAME)
 
+fclean: clean re
+
+test: clean re
+
 re: clean re
